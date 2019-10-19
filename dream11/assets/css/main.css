@@ -5,6 +5,7 @@
 }
 
 #showcase{
+    width: 100%;
     position: relative;
     background-image: url('../images/dream11_home_bg_mobile.png');
     min-height: 500px;
