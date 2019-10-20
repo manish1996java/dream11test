@@ -4,6 +4,7 @@
     --footer-light: #373737;
 }
 
+
 #showcase{
     width: 100%;
     position: relative;
@@ -56,6 +57,51 @@
     }
 } */
 
+#section-2 .nav .nav-item.active{
+    border-bottom: 2px solid rgb(191, 1, 1);
+    color: rgb(191, 1, 1);
+}
+
+#section-2 .vscards{
+    background-color: var(--dark-muted);
+}
+#section-2 .card{
+    overflow: hidden;
+}
+#section-2 .card h6{
+    font-size: 13px;
+}
+#section-2 .team-1{
+    position: relative;
+}
+#section-2 .team-1 .t-color{
+    border-radius: 0px 20px 20px 0px;
+    background-color: lightgreen;
+    width: 70px;
+    height: 40px;
+}
+#section-2 .team-1 .flage{
+    position: absolute;
+    left: 52px;
+    top: -10px;
+}
+
+#section-2 .team-2 {
+    position: relative;
+}
+#section-2 .team-2 .t-color{
+    border-radius: 20px 0px 0px 20px;
+    background-color: lightseagreen;
+    width: 70px;
+    height: 40px;
+}
+#section-2 .team-2 .flage{
+    position: absolute;
+    right: 45px;
+    top: -11px;
+}
+
+
 #section-3 .sec-sub-2 .number{
     font-size: 4em;
     font-weight: 600;
@@ -105,6 +151,21 @@
 #section-4 .app-pub i{
     font-size: 40px;
 }
+
+#section-6 .card{
+    width:350px;
+}
+#section-6 .score{
+    max-height: 180px;
+    background-image: url('../images/bolt_bg.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;   
+}
+@media (max-width:767px){
+    #section-7{
+        text-align: center;
+    }
+}
 #footer .top-footer{
     background-color: var(--footer-light);
 }
@@ -131,3 +192,8 @@
 #footer .bottom-footer{
     background-color: var(--footer-dark);
 }
+
+
+
+
+
